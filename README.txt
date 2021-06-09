@@ -34,3 +34,8 @@
 - Stops the specified program from running 'systemctl stop {program}'
 
 - Run a script file (.sh) 'sudo bash name_of_file'
+
+or
+
+- Create an exectutable from a script file 'sudo chmod +x name_of_file', chmod changes the permissions of the file
+- Run the executable file 'sudo ./provision.sh'
