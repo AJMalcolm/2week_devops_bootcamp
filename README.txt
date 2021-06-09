@@ -33,4 +33,4 @@
 - Check the status of a program 'systemctl status {program}'
 - Stops the specified program from running 'systemctl stop {program}'
 
-
+- Run a script file (.sh) 'sudo bash name_of_file'
