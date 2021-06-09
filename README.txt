@@ -25,3 +25,12 @@
 - Delete multiple files within a directory 'rm directory/*'
 	- 'rm directory/* --dry-run' will return a list of what would be deleted as a result of this command.
 	- 'rm -v !("file_not_to_be_deleted")' removes all but specified file
+
+- Open Linux Task Manager 'top', 'q' to exit this mode
+- Similar to above -> 'ps', 'ps aux'
+- Change user to root 'sudo su', 'exit' to escape this. Allows the running of commands without the 'sudo' preface
+- Print all commands entered as current user 'history'
+- Check the status of a program 'systemctl status {program}'
+- Stops the specified program from running 'systemctl stop {program}'
+
+
