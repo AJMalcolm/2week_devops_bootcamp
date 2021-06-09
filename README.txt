@@ -39,3 +39,19 @@ or
 
 - Create an exectutable from a script file 'sudo chmod +x name_of_file', chmod changes the permissions of the file
 - Run the executable file 'sudo ./provision.sh'
+
+
+
+- Create script file:
+
+```
+#!/bin/bash
+
+sudo apt-get update -y
+
+sudo apt-get upgrade -y
+
+sudo apt-get install nginx -y
+
+sudo systemctl restart nginx
+```
