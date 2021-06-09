@@ -9,36 +9,36 @@
 -
 
 ### Linux commands thata also work on Bash
-- Create a Directory 'mkdir name_of_the_directory'
-- Go inside the Directory 'cd name_of_the_directory'
-- Come out of the Directory 'cd ..' (up 1 level) or 'cd' (root directory)
-- Who am I 'uname -a'
-- Where am I? 'pwd'
-- Create a file 'touch name_of_the_file' or 'nano file_name' you land inside the file
-- Exit from nano 'ctrl x' then 'y'
-- List all 'ls -a' (inc hidden files) or 'ls'
-- Clear the screen 'clear'
-- Print the contents of a file 'cat name_of_file'
+- Create a Directory `mkdir name_of_the_directory`
+- Go inside the Directory `cd name_of_the_directory`
+- Come out of the Directory `cd ..` (up 1 level) or `cd` (root directory)
+- Who am I `uname -a`
+- Where am I? `pwd`
+- Create a file `touch name_of_the_file` or `nano file_name` you land inside the file
+- Exit from nano `ctrl x` then `y`
+- List all `ls -a` (inc hidden files) or `ls`
+- Clear the screen `clear`
+- Print the contents of a file `cat name_of_file`
 
-- Delete a folder 'rm -rf name_of_the_folder'
-- Delete a file 'rm name_of_the_file'
-- Delete multiple files within a directory 'rm directory/*'
-	- 'rm directory/* --dry-run' will return a list of what would be deleted as a result of this command.
-	- 'rm -v !("file_not_to_be_deleted")' removes all but specified file
+- Delete a folder `rm -rf name_of_the_folder`
+- Delete a file `rm name_of_the_file`
+- Delete multiple files within a directory `rm directory/*`
+	- `rm directory/* --dry-run` will return a list of what would be deleted as a result of this command.
+	- `rm -v !("file_not_to_be_deleted")` removes all but specified file
 
-- Open Linux Task Manager 'top', 'q' to exit this mode
-- Similar to above -> 'ps', 'ps aux'
-- Change user to root 'sudo su', 'exit' to escape this. Allows the running of commands without the 'sudo' preface
-- Print all commands entered as current user 'history'
-- Check the status of a program 'systemctl status {program}'
-- Stops the specified program from running 'systemctl stop {program}'
+- Open Linux Task Manager `top`, `q` to exit this mode
+- Similar to above -> `ps`, `ps aux`
+- Change user to root `sudo su`, `exit` to escape this. Allows the running of commands without the 'sudo' preface
+- Print all commands entered as current user `history`
+- Check the status of a program `systemctl status {program}`
+- Stops the specified program from running `systemctl stop {program}`
 
-- Run a script file (.sh) 'sudo bash name_of_file'
+- Run a script file (.sh) `sudo bash name_of_file`
 
 or
 
-- Create an exectutable from a script file 'sudo chmod +x name_of_file', chmod changes the permissions of the file
-- Run the executable file 'sudo ./provision.sh'
+- Create an exectutable from a script file `sudo chmod +x name_of_file`, chmod changes the permissions of the file
+- Run the executable file `sudo ./provision.sh`
 
 
 
