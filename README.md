@@ -56,6 +56,58 @@ sudo apt-get install nginx -y
 sudo systemctl restart nginx
 ```
 
+## Running 'app'
+
+navigate into the app folder (move app to vagrantfile location and add to vagrantfile (nano))
+
+`sudo apt-get install nodejs -y`
+
+`sudo apt-get install npm-y`
+
+`sudo apt-get install python-software-properties`
+
+`curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -`
+
+`sudo apt-get install nodejs -y`
+
+`sudo npm install pm2 -g` (-g = global access/permissions)
+
+`npm install`
+
+`node app.js`
+
+navigate to `192.168.10.100:3000` to check it is working
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Permissions
 
