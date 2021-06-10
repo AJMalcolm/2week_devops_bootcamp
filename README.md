@@ -84,7 +84,7 @@ to exit the app, `ctrl c` will close it
 
 ## Environment Variables
 
- - How can we check the existing evn var in our system `printevn` or `env`
+ - How can we check the existing evn var in our system `printenv` or `env`
  - How can we create an Env variable `export name_of_the_var=value`
  - `~/.bashrc`, `~/.profile`, `~/.bash_profile`
 
