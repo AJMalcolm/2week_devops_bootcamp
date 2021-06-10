@@ -21,4 +21,6 @@ sudo npm install pm2 -g
 
 npm install
 
+cd app
+
 node app.js
