@@ -82,7 +82,11 @@ navigate to `192.168.10.100:3000` to check it is working
 
 to exit the app, `ctrl c` will close it
 
+## Environment Variables
 
+ - How can we check the existing evn var in our system `printevn` or `env`
+ - How can we create an Env variable `export name_of_the_var=value`
+ - `~/.bashrc`, `~/.profile`, `~/.bash_profile`
 
 
 
