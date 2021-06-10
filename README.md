@@ -60,6 +60,8 @@ sudo systemctl restart nginx
 
 navigate into the app folder (move app to vagrantfile location and add to vagrantfile (nano))
 
+if these files/folders are editted, the vagrant will have to be reloaded/ destroyed+up for the changes to take effect. `vagrant reload` is much faster but does not always work. `vagrant destroy` is a clean slate and requires re-update/installation when a new `vagrant up` is run.
+
 `sudo apt-get install nodejs -y`
 
 `sudo apt-get install npm-y`
