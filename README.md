@@ -80,6 +80,8 @@ if these files/folders are editted, the vagrant will have to be reloaded/ destro
 
 navigate to `192.168.10.100:3000` to check it is working
 
+to exit the app, `ctrl c` will close it
+
 
 
 
