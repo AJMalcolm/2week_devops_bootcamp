@@ -89,35 +89,38 @@ to exit the app, `ctrl c` will close it
  - `~/.bashrc`, `~/.profile`, `~/.bash_profile`
 
 
+# Vagrant_Setup
 
+## Setting up a Vagrant File
+- Inside desired directory, create a file called `Vagrantfile` with contents:
 
+```
+Vagrant.configure("2") do |config|
 
+  config.vm.box = "ubuntu/xenial64" 
+  config.vm.network "private_network", ip: "192.168.10.100"
+  
+  end
+```
 
+## Vagrant commands
+- `vagrant up` Launches the Virtual Machine.
+- `vagrant status` Views status of the Virtual Machine.
+- `vagrant ssh` SSH's into the Virtual Machine.
+- `vagrant destroy` Stops the Virtual Machine and destroys config.
+- `vagrant suspend` Stops the Virtual Machine but keeps config.
+- `vagrant halt` Force Stops the Virtual Machine.
 
+## Vitual Machine Commands
+- `sudo apt-get update -y`  Updates the Virtual Machine - sudo runs with permissions, apt-get is an install manager, -y flag accepts all permissions (y/n questions etc.).
+- `sudo apt-get install {program}` Installs a program.
 
+## Verify nginx
+- Assuming that nginx has been installed (`sudo apt-get install nginx`).
+- Open browser and navigate to 192.168.10.100.
+- The nginx splash page should be visible.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Permissions
+# Permissions
 
 Linux permissions dictate 3 things you may do with a file, read, write and execute. They are referred to in Linux by a single letter each.
 
